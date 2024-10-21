@@ -3,35 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garvit's Achievements</title>
-    <!-- Correct path to external CSS -->
-    <link rel="stylesheet" href="../css/styles.css"> <!-- Ensure this is correct -->
+    <title>Garvit's Programming Achievements</title>
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Garvit's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/yourusername" target="_blank">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Achievements</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Achievements Section -->
     <div class="container my-5">
-        <h2 class="text-center mb-4">My Achievements</h2>
-        <ul class="list-group">
-            <li class="list-group-item">Completed JavaScript Course on Codecademy</li>
-            <li class="list-group-item">Certified Python Developer by CodeAcademy</li>
-            <li class="list-group-item">Built multiple web applications using JavaScript and React</li>
-            <li class="list-group-item">Completed Udemy's Machine Learning course</li>
-        </ul>
+        <h2 class="text-center mb-4">Programming Achievements</h2>
+
+        <!-- Completed Codecademy Courses -->
+        <div class="row mb-5">
+            <div class="col-md-4 offset-md-4">
+                <div class="card">
+                    <img src="../img/learn-html.jpg" class="card-img-top" alt="Codecademy Course Completion">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Codecademy Html Course</h5>
+                        <p class="card-text">Completed a comprehensive Html course on Codecademy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards for Projects -->
+        <div class="row">
+            <!-- First Project Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="../img/project1.jpg" class="card-img-top" alt="Project 1 Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1: Super Hero Game</h5>
+                        <p class="card-text">A fun little game I made.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/thisisggarvit/SuperHeroGame" target="_blank" class="btn btn-primary">View Repo</a>
+                        <a href="https://yourprojectlive.com" target="_blank" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Project Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="../img/project2.png" class="card-img-top" alt="Project 2 Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2: Java Projects</h5>
+                        <p class="card-text">Small Java projects I made.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/thisisggarvit/Fall-24-HW-UNA" target="_blank" class="btn btn-primary">View Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-white">
-        <p>&copy; 2024 Garvit's DevFolio</p>
+        <p>&copy; 2024 Garvit's DevFolio | <a href="../index.html">Back to Main Page</a></p>
     </footer>
 
     <!-- Link to Bootstrap JS -->
