@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garvit's DevFolio</title>
-    <!-- Link to external Bootstrap and custom CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Garvit's Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,17 +25,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <!-- Updated "About" to "GitHub" with a link to GitHub profile -->
-                        <a class="nav-link" href="https://github.com/thisisggarvit" target="_blank">GitHub</a>
+                        <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pages/achievements.html">Achievements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fthisisggarvit.github.io%2Fthisisggarvit%2F">Source</a>
+                        <a class="nav-link" href="https://github.com/yourusername" target="_blank">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -44,34 +47,16 @@
             <!-- Profile Card -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/img.jpg" class="card-img-top" alt="Garvit's Photo">
+                    <img src="img.jpg" class="card-img-top rounded-circle" alt="Garvit's Photo">
                     <div class="card-body text-center">
                         <h5 class="card-title">Garvit</h5>
                         <p class="card-text">BSc in IT, Concentration in HCI/UI UX</p>
                         <p>Email: ggarvit@xyz.com</p>
-                        <p>Phone: (555) 123-4567</p>
-
-                        <h6 class="mt-4">Skills</h6>
-                        <p>Python 90%</p>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" style="width:90%"></div>
-                        </div>
-                        <p>Java 85%</p>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" style="width:85%"></div>
-                        </div>
-                        <p>JavaScript 80%</p>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" style="width:80%"></div>
-                        </div>
-                        <p>HTML/CSS 95%</p>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" style="width:95%"></div>
-                        </div>
-                        <p>C++ 75%</p>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" style="width:75%"></div>
-                        </div>
+                        
+                        <!-- LinkedIn Button -->
+                        <a href="https://www.linkedin.com/in/thisisgarvit/" target="_blank" class="btn btn-primary btn-lg mt-3">
+                            <i class="bi bi-linkedin"></i> LinkedIn
+                        </a>
                     </div>
                 </div>
             </div>
@@ -89,11 +74,11 @@
     </div>
 
     <!-- Footer -->
-    <footer class="mt-5">
-        <p>&copy; 2024 Garvit's Portfolio | <a href="https://validator.nu/?doc=https%3A%2F%2Fthisisggarvit.github.io%2Fthisisggarvit%2F" target="_blank">Validate this page</a></p>
+    <footer class="mt-5 bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Garvit's Portfolio | <a href="https://validator.w3.org/" target="_blank" class="text-white">Validate this page</a></p>
     </footer>
 
-    <!-- Link to Bootstrap JS -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
