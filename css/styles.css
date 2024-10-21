@@ -1,0 +1,147 @@
+/* Global Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e3e8ec 100%);
+    color: #333;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6b6b !important;
+}
+
+/* Developer Card Styling */
+.card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 400px; /* Slightly larger size for better visibility */
+    height: 600px; /* Ensures the image stays proportional */
+    object-fit: cover; /* Ensures the image covers the space without distorting */
+    margin: 0 auto; /* Centers the image within the card */
+    display: block; /* Ensures the image block is centered */
+    border-radius: 12px; /* Sharp but slightly rounded edges for a sleek look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a modern subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover Effect */
+.card img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+
+.card-body h5 {
+    font-weight: 700;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Progress Bar Styling */
+.progress {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+.progress-bar {
+    background-color: #ff6b6b;
+    transition: width 0.4s ease;
+}
+
+/* About Section Styling */
+.about-section {
+    background: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-section h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff6b6b;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff4757;
+}
+
+.btn-secondary {
+    background-color: #2d98da;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #3867d6;
+}
+
+
+
